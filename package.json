@@ -1,0 +1,29 @@
+{
+  "name": "babylongame",
+  "version": "0.0.0",
+  "description": "a babylon.js made with typescript.",
+  "main": "esbuild.js",
+  "scripts": {
+    "esbuild": "node esbuild.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zentyk/BabylonGame.git"
+  },
+  "author": "zentyk",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/zentyk/BabylonGame/issues"
+  },
+  "homepage": "https://github.com/zentyk/BabylonGame#readme",
+  "devDependencies": {
+    "@babylonjs/core": "5.14.1",
+    "@babylonjs/gui": "5.14.1",
+    "@babylonjs/inspector": "5.14.1",
+    "@babylonjs/loaders": "5.14.1",
+    "handlebars": "^4.7.7",
+    "sass": "^1.52.1",
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.14.38"
+  }
+}

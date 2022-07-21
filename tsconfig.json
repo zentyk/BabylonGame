@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noResolve": false,
+    "noImplicitAny": false,
+    "preserveConstEnums":true,
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "rootDir": "src"
+  },
+  "types": [
+    "babylonjs"
+  ]
+}
