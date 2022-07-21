@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  babylon:
-    container_name: babylon
+  game:
+    game: babylon
     image: nginx:1.14.2-alpine
     restart: always
     ports:
