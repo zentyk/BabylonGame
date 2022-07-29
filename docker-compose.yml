@@ -2,7 +2,6 @@ version: "3"
 
 services:
   game:
-    game: babylon
     image: nginx:1.14.2-alpine
     restart: always
     ports:
